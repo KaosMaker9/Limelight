@@ -20,6 +20,8 @@ public class Robot extends TimedRobot {
   @Override
   public void robotPeriodic() {
     CommandScheduler.getInstance().run();
+
+    // Update limelight things here (according to drew)
   }
 
   @Override
